@@ -69,7 +69,7 @@ app.post('/contact/send-message',  upload.single('uploaded_file'), (req, res) =>
 
 });
 
-const port = 3000;
+const port = 8000;
 app.listen(port, () => {
   console.log(`Server is running on port: ${port}`);
   opn(`http://localhost:${port}`);
